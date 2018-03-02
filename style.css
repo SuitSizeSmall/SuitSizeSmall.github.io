@@ -1,13 +1,13 @@
 html {
+    background-image: url(https://i0.wp.com/www.poelab.com/wp-content/uploads/2017/01/poelab_background.jpg?fit=1920%2C696);
+    background-size: 100% ; 
+    background-repeat: no-repeat;
+    background-attachment: scroll ;
     background-color: black;
 }
 
 body{
     color: white;
-}
-
-#patreon  {
-    background-color: coral;
 }
 
 .logo{
@@ -24,110 +24,6 @@ h4{
 .main_notes{
     display: inline;
         
-}
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
-  float: right;
-  margin-right: 30px;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 18px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 18px; 
-  border: none ;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a blue background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: royalblue;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  border-bottom: 2px solid black ;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-  
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-
-/* side nav bar */
-
-.sidenav {
-    margin-top: 350px;
-    margin-right: 15px;
-    height:auto;
-    width: 250px;
-    background-color: #272727;
-    overflow-x: hidden;
-    display: block;
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-   
-}
-
-
-.sidenav a{
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    display: block;
-}
-
-.sidenav a:hover{
-    background-color: royalblue;
-    color: white;
 }
 
 
@@ -150,89 +46,25 @@ align-items: center; /* align vertical */
     
 }
 
-
-
-
-/* Style the Image Used to Trigger the Modal */
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (Image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 100%;
-    max-width: 1470px;
-}
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation - Zoom in the Modal */
-.modal-content, #caption { 
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
+a{
+    color: #009eec ;
     text-decoration: none;
-    cursor: pointer;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
+a:hover{
+    color: red;
 }
 
+.homebanner{
+    text-align: center;
+    border-color: lightgray;
+    border-style: solid;
+    width: 728px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
 
 .banner{
     text-align: center;
@@ -250,10 +82,75 @@ align-items: center; /* align vertical */
 }
 
 .file a{
-   Color: royalblue;
+   Color: #009eec;
     
 }
 
 .file a:hover{
     color: red;    
 }
+
+#countdown {
+    margin-top: 40px;
+    margin-bottom: 30px;
+ text-align: center;
+}
+
+#newsarea{
+    text-align: center;
+    line-height: 3;
+    
+    /* background gradient 
+    background: #444444;
+    background: -moz-linear-gradient(top,  #444444 0%, #000000 100%);
+    background: -webkit-linear-gradient(top,  #444444 %,#000000 100%);
+    background: linear-gradient(to bottom,  #444444 0%,#000000 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#000000',GradientType=0 );
+    */
+}
+
+.b {
+    
+    display: inline-block;
+    position: relative;
+    margin-left: 6%;
+    margin-bottom: 20px;
+    width: 17%;
+    height: 220px;
+    background-color: #1e1e1e;
+}
+
+.b2{
+  display: inline-block;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 20px;
+    width: 17%;
+    height: 450px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#boxtitle{
+    margin-left: 20px;
+    font-family: "Arial Black";
+}
+
+.see{
+    color: whte;
+}
+
+.see a{
+    color: white;
+    font-family: "Arial Black";
+    font-size: 14px;
+    background-color: #009eec;
+    padding: 10px ;
+    margin-left: 20px; 
+}
+
+.see a:hover{
+    color: white;
+    background-color: gray;
+}
+
