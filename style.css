@@ -2,7 +2,7 @@ html {
     background-image: url(https://i0.wp.com/www.poelab.com/wp-content/uploads/2017/01/poelab_background.jpg?fit=1920%2C696);
     background-size: 100% ; 
     background-repeat: no-repeat;
-    background-attachment: scroll ;
+    background-attachment: fixed ;
     background-color: black;
 }
 
